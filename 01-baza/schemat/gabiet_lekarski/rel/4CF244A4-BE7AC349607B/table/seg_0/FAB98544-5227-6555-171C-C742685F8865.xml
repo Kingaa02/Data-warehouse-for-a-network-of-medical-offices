@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAB98544-5227-6555-171C-C742685F8865" name="Typ_gabinetu">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>19FE2E5A-82DC-0C72-823F-69367CE66D34</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="typ_gabinetu_id" id="964A1B38-C777-D967-CBC8-EA2491E1D96F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>DF426947-ABC2-A738-2C68-176AD83B5D78</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="A32A6EA5-9E01-F75A-E223-57B44A3AEA13">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>4E0715FC-12D7-A762-8017-852531947B35</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5DD8246-8010-EC75-30A1-7DA43249DE5D" name="Typ_gabinetu_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>C123878F-BBF8-7D55-D802-D0929402A8AB</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="964A1B38-C777-D967-CBC8-EA2491E1D96F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

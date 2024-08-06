@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="213FECC4-5C59-9479-E08D-3DA30B9724A2" name="Gabinet_HURT">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-21 19:22:33 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gabinet_id" id="50C33C3F-8804-6962-03E7-DC8613DEAF99">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-21 19:35:57 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer" id="AF2E900C-1BD7-9A56-54D2-001C703AC809">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:23:45 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73956246-62D0-2226-69AA-2E880873F06E" name="Gabinet_HURT_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-21 19:35:57 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50C33C3F-8804-6962-03E7-DC8613DEAF99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

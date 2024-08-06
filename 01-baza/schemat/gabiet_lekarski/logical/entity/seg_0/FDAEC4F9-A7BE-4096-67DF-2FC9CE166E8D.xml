@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDAEC4F9-A7BE-4096-67DF-2FC9CE166E8D" name="Panstwo">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:21:26 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="panstwo id" id="0E4D0481-D74D-E94A-D1E9-E60A0B144E3B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:21:32 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="38D33C4D-412A-0B94-0483-9138EA0B56D0">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:21:41 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

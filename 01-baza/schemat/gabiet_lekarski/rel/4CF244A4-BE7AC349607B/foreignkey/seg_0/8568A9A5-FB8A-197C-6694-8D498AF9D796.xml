@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8568A9A5-FB8A-197C-6694-8D498AF9D796" containerWithKeyObject="F2430AD5-3143-F49E-0501-592879BD30D8" localFKIndex="412932E7-135A-52CE-D635-3E03396FB309" name="Pacjent_Ulica_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>BEAD3C9F-AD63-752F-E5EA-82243A7869A0</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<referredTableLongName>Ulica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C37662D-FD8D-9800-AA53-D627EB1A9ECF</referredTableID>
+<keyObject>DE89D9E8-C6A1-D449-BA97-15B96CBBB204</keyObject>
+<referredKeyID>DE89D9E8-C6A1-D449-BA97-15B96CBBB204</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ulica_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

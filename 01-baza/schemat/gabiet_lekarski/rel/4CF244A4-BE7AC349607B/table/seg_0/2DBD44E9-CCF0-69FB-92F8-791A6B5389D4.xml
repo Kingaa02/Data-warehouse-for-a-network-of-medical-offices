@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DBD44E9-CCF0-69FB-92F8-791A6B5389D4" name="Typ_oplaty">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>175047E6-F90A-B21B-DC2B-CBF9761C8A83</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="typ_oplaty_id" id="58DBFA46-7F28-9D5D-008C-56C280E1BADB">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>A92FF9C9-DD85-D2E2-1B31-95309D0B4A7F</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="A3607E05-7A8B-E271-ACCB-34B230381CE9">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>78545A9C-59ED-D193-4C4D-FE57BFA5F5D4</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kwota" id="4EB74CD9-13D3-B937-C180-6C4F06A8D054">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:43:59 UTC</createdTime>
+<generatorID>3B9DFBA7-FF7F-2438-43B9-705A5641BB5A</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E263F983-F9FA-784F-EF1D-3EE14E05549A" name="Typ_oplaty_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>263FFBEA-5225-B32E-1AD1-972F8C4742D8</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58DBFA46-7F28-9D5D-008C-56C280E1BADB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

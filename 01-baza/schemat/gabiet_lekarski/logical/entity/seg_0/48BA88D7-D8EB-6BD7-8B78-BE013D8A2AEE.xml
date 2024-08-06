@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48BA88D7-D8EB-6BD7-8B78-BE013D8A2AEE" name="Wojewodztwo">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:20:42 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wojewodztwo id" id="B15A2F10-30AA-7F8B-6943-A337ADFF6288">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:20:50 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="A7630735-E4D0-E63B-5E3E-808970F4BC8F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:21:01 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="panstwo id" id="DC16487B-D1BF-1BE5-D3A3-5A453EAFBEE5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 18:43:23 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1815AD3F-0B5A-71E5-ABFF-E2F868B547FC" name="Wojewodztwo PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:20:54 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B15A2F10-30AA-7F8B-6943-A337ADFF6288</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

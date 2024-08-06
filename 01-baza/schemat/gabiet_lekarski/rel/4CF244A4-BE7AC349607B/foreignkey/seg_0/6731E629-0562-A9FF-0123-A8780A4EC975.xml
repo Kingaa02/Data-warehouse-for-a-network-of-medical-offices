@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6731E629-0562-A9FF-0123-A8780A4EC975" containerWithKeyObject="5FC314EA-668B-7E7B-47D5-CDB7ED36A689" localFKIndex="E663626A-AC4B-0B9B-564B-89771EB12B10" name="Wizyta_Typ_oplaty_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:43:59 UTC</createdTime>
+<generatorID>6FCF3101-9A56-4865-35DC-1DAE87D6F366</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<referredTableLongName>Typ_oplaty</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2DBD44E9-CCF0-69FB-92F8-791A6B5389D4</referredTableID>
+<keyObject>E263F983-F9FA-784F-EF1D-3EE14E05549A</keyObject>
+<referredKeyID>E263F983-F9FA-784F-EF1D-3EE14E05549A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>typ_oplaty_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

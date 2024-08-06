@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="175047E6-F90A-B21B-DC2B-CBF9761C8A83" name="Typ oplaty">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:08:59 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="typ oplaty id" id="A92FF9C9-DD85-D2E2-1B31-95309D0B4A7F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:09:05 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="78545A9C-59ED-D193-4C4D-FE57BFA5F5D4">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:09:15 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kwota" id="3B9DFBA7-FF7F-2438-43B9-705A5641BB5A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:42:16 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="263FFBEA-5225-B32E-1AD1-972F8C4742D8" name="Typ_oplaty_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:09:11 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A92FF9C9-DD85-D2E2-1B31-95309D0B4A7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

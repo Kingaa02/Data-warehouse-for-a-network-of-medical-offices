@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wizyta Pracownik FK" directorySegmentName="seg_0" id="0EED3939-37FA-81D5-FEAB-C1078DC3FA08">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:46:10 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D730D2E2-298A-71C0-63B2-5D3584E1E522</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>937EE5F2-2BD2-6B91-C0E8-1B422778788C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

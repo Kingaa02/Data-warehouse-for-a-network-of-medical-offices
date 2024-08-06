@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="790C57DC-46B7-989B-5BF2-1DADCA220135" name="Wysokosc_zarobkow">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:59:30 UTC</createdTime>
+<generatorID>A70C7D71-0BEA-64E6-5A10-CDC3EDB478FA</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="wysokosc_zarobkow_id" id="78147A27-BCC0-95CA-AA4F-A252B219CC24">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:59:30 UTC</createdTime>
+<generatorID>48601A60-707A-9E68-4AB3-797F4C65922B</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kwota" id="C028011A-4DC8-135B-B1D2-C9AC74ED8507">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:59:30 UTC</createdTime>
+<generatorID>E3FD51B0-D536-A8F0-3793-332447E16C8F</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44E738A3-3F61-AAF2-1DD9-A6C0726733E9" name="Wysokosc_zarobkow_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:59:30 UTC</createdTime>
+<generatorID>B4A44B43-46AE-7E86-270A-FD64246E6072</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78147A27-BCC0-95CA-AA4F-A252B219CC24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

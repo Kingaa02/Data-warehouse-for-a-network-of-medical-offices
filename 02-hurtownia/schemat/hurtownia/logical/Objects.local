@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="316C7D07-80FD-49D3-2BFF-ED09FC8992E1" name="Miesiac" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5669AB63-F959-4BFF-E4D5-6D6AC29A7C46" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="38256601-630E-308B-9E55-5DA65BDFE856" name="Oplata" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5669AB63-F959-4BFF-E4D5-6D6AC29A7C46" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="50AF40AD-1D0F-4726-3A28-B6309DFD8CCA" name="Gabinet" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5669AB63-F959-4BFF-E4D5-6D6AC29A7C46" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="67168030-5AB5-B329-3037-77CC3710F6B2" name="Pacjent" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5669AB63-F959-4BFF-E4D5-6D6AC29A7C46" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A3D5D984-D737-EFF6-F739-7E30994CC75C" name="Pracownik" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5669AB63-F959-4BFF-E4D5-6D6AC29A7C46" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EA69BF61-E6C9-EC9B-C91F-EC7572296674" name="Przychodnia" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5669AB63-F959-4BFF-E4D5-6D6AC29A7C46" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,34 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Mon Jun 10 20:04:08 2024
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   gabinet_lekarski.ctl
+Data File:      gabinet_lekarski.csv
+  Bad File:     gabinet_lekarski.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table GABINET_LEKARSKI, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GABINET_LEKARSKI_ID                 FIRST     *   ,  O(") CHARACTER            
+NAZWA                                NEXT     *   ,  O(") CHARACTER            
+NR_DOMU                              NEXT     *   ,  O(") CHARACTER            
+NR_MIESZKANIA                        NEXT     *   ,  O(") CHARACTER            
+TELEFON                              NEXT     *   ,  O(") CHARACTER            
+EMAIL                                NEXT     *   ,  O(") CHARACTER            
+ULICA_ID                             NEXT     *   ,  O(") CHARACTER            
+
+SQL*Loader-601: For INSERT option, table must be empty.  Error on table GABINET_LEKARSKI

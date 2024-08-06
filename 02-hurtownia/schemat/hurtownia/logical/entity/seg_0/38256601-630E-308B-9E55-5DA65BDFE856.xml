@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38256601-630E-308B-9E55-5DA65BDFE856" name="Oplata">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>AA8C78F9-F341-3675-E2B5-5BAFCF30F1E2</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="oplata id" id="0CDAE1F8-DF8D-FE1E-6E4B-5772934D35FF">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>E5194CFC-CC5E-8CA0-B530-0F1E552DBD09</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kwota" id="F2DE207D-8B97-72BB-0927-F8FC3E005140">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>AD99B10B-1E44-1B94-F0F0-27264E2A340E</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1706E891-6C58-4CA3-3799-DCBC707F201D" name="Oplata PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>2493E23B-B2EA-FEB8-A1A3-CE062AFD5E34</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CDAE1F8-DF8D-FE1E-6E4B-5772934D35FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

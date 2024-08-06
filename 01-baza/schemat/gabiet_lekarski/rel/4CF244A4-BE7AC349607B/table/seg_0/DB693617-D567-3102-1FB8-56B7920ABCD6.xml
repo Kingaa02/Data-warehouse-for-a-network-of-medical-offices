@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB693617-D567-3102-1FB8-56B7920ABCD6" name="Specjalizacja">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>C6A64516-9EE5-DF09-D005-C977367828C5</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="specjalizacja_id" id="193EBEAD-66B3-810F-AB07-FA2ABECEBB78">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>5204F68B-6FBD-5C61-8FAB-F0370D9150E1</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="BD24CBBA-3A0F-8D9B-F204-6D9FB5F56F64">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>0E126F44-E571-9446-E594-FB6E1CA29A1E</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wysokosc_zarobkow_id" id="542DCD60-B194-D587-959E-A707E44CDA1B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 18:03:23 UTC</createdTime>
+<generatorID>6A0F19A4-32BD-E098-12B4-D1088D5B8B9D</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55472583-7F3A-DEDC-0881-D6537C2DBE8C" referredColumn="78147A27-BCC0-95CA-AA4F-A252B219CC24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A92CA0B-AEA7-4CB8-D351-A0294F370C31" name="Specjalizacja_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>30FFD1B9-F4F2-7F5E-1052-8B2AB1E07173</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="193EBEAD-66B3-810F-AB07-FA2ABECEBB78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9019B45D-D675-97DF-DCD9-522FD75B642E" name="Specjalizacja_Wysokosc_zar_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 18:03:23 UTC</createdTime>
+<generatorID>D442853A-A3C1-EB3A-C837-D3B83136425B</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="542DCD60-B194-D587-959E-A707E44CDA1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

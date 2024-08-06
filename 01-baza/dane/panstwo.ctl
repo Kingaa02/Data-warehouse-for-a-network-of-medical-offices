@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'panstwo.csv'
+INTO TABLE panstwo
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+(panstwo_id, nazwa)

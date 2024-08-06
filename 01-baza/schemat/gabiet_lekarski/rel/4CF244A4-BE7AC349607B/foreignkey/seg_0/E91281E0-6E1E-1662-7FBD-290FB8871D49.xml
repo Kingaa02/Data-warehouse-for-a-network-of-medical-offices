@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E91281E0-6E1E-1662-7FBD-290FB8871D49" containerWithKeyObject="48F8114D-E338-93A4-6279-A5F3D12333A9" localFKIndex="EDF7C391-7BAC-0EE3-6D77-55F06B5CC1A5" name="Sprzet_w_gabinecie_Sprzet_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:41 UTC</createdTime>
+<generatorID>B32FC07B-172B-1B9F-D496-FF03E40A32AA</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<referredTableLongName>Sprzet</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28A73EDF-31AB-7F34-7688-525C9405C2B7</referredTableID>
+<keyObject>8508913A-E958-7120-0669-E593BB3C9010</keyObject>
+<referredKeyID>8508913A-E958-7120-0669-E593BB3C9010</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sprzet_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

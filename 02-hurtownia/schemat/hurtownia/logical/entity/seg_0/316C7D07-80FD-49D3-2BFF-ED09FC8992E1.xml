@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="316C7D07-80FD-49D3-2BFF-ED09FC8992E1" name="Miesiac">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>C0575A5A-2BC8-993C-ED0F-FB481478B311</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="miesiac id" id="4D2EA128-6A36-A080-138A-2E73ADBC250A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>8FB00F91-ADE0-892E-B428-6273AC9764C2</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="B34CF7BE-6688-C2D4-E612-250E4FBEFCD2">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>92506418-1C86-570E-31AA-E1B357D13B85</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E786745B-9D26-EACF-F1CF-45F2FFB6FFD5" name="Miesiac PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>FC6909A7-4E7E-2854-6394-2D1908BDA4E8</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D2EA128-6A36-A080-138A-2E73ADBC250A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

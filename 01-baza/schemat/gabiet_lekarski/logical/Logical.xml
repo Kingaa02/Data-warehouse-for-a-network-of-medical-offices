@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="EB90A98E-D4DF-224F-2E00-9E4F5A8AB018" mainViewID="C857090E-E9C4-C9FA-FB30-1ABE9511CEBE">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:18:39 UTC</createdTime>
+<ownerDesignName>przychodnia_log</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

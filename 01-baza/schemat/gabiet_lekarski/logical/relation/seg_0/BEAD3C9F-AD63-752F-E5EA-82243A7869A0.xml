@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pacjent Ulica FK" directorySegmentName="seg_0" id="BEAD3C9F-AD63-752F-E5EA-82243A7869A0">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:42:26 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<sourcePk>64E670B4-FD72-C9EC-C2BC-A0432FEAE800</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0736EF78-885E-9511-4CCC-E27396B38261</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>35D06D79-085B-2239-C872-7A674088C8B2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

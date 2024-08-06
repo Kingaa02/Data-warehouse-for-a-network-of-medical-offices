@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C37662D-FD8D-9800-AA53-D627EB1A9ECF" name="Ulica">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>0736EF78-885E-9511-4CCC-E27396B38261</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ulica_id" id="1599FA52-ECE1-2926-EDDF-2F4D9013BEDC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>82BA08D2-EA9C-CF8B-0BE5-19AF26C2C40C</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="5533E37F-7068-9883-FF76-68DC59DEAFEC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>787C350F-9E30-1653-06E1-E9ADB2C8B907</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miasto_id" id="0EF6DA4B-5E09-95D3-7722-B00130880F56">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:15:23 UTC</createdTime>
+<generatorID>ADAD6FA2-0DF6-B528-1D24-306E282DC1D3</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4E0A0CE-B3B5-2EEE-B614-6DC9E3046A4A" referredColumn="61E6B2CE-3E92-DC8F-5995-1C7783D5E8FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE89D9E8-C6A1-D449-BA97-15B96CBBB204" name="Ulica_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>64E670B4-FD72-C9EC-C2BC-A0432FEAE800</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1599FA52-ECE1-2926-EDDF-2F4D9013BEDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="001281D8-853F-C22B-0B54-4A9F24148F4A" name="Ulica_Miasto_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>A4ABF5D4-87B5-5EC2-4524-BD17FBE05BA5</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EF6DA4B-5E09-95D3-7722-B00130880F56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

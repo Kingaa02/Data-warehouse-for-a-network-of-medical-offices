@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sprzet w gabinecie Gabinet FK" directorySegmentName="seg_0" id="0BCC720F-1169-9444-7223-47CFF6A12DF1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:02 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<sourcePk>F5E1A629-9D45-7C69-CA43-91C327CC5D53</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>463EC815-D7D5-07E0-B405-F3D967A2C2C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43142AD7-C9AC-BD0A-1456-07124600FE6C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

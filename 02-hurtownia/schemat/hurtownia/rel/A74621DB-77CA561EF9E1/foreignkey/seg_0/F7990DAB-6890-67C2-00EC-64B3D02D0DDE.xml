@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7990DAB-6890-67C2-00EC-64B3D02D0DDE" containerWithKeyObject="3DBF4B03-3ECB-2669-5B5A-973D9FB82593" localFKIndex="39331364-A63A-F67B-5867-E2D88E2EFF97" name="Wizyta_HURT_Miasto_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:54:51 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<referredTableLongName>Miasto_HURT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14902C2D-BB4C-3887-3531-3B61A7D57F11</referredTableID>
+<keyObject>D09C1D61-8DDB-9458-3464-C3AC8BCDF898</keyObject>
+<referredKeyID>D09C1D61-8DDB-9458-3464-C3AC8BCDF898</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>miasto_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

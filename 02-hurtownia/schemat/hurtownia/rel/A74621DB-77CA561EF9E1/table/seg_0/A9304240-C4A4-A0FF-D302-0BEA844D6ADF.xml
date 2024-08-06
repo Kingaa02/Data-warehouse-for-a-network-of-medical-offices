@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9304240-C4A4-A0FF-D302-0BEA844D6ADF" name="Typ_gabinetu_HURT">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:50:53 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="typ_gabinetu_id" id="F98B6DFB-A8E3-1C8F-A2E5-13AFE9D698EB">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:51:25 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="D09B6D1C-8AC0-C18F-0EF0-7FBDD06DC6E8">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:52:05 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50DAA40D-74EF-B79C-4B50-579C7BB2C4E3" name="Typ_gabinetu_HURT_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:52:13 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F98B6DFB-A8E3-1C8F-A2E5-13AFE9D698EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

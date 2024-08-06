@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B529E20-80D6-0090-206F-3A59A90EDF32" name="Pracownik">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>D730D2E2-298A-71C0-63B2-5D3584E1E522</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pracownik_id" id="2C8207E9-EC70-6194-E217-06EB1BA04200">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>B63A582B-1B72-48AB-F11E-BC8DB40EED24</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="81A22CF4-DE97-723C-0870-48DE5530C2E2">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>383EEEB2-A920-9EF3-A4BC-9507CA9DF495</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="02EE398A-420A-0AF1-467B-C80366FB8E36">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>D510A763-8CE5-486B-EDDA-8329F4ACD57D</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_domu" id="92389509-BF04-6C86-4C9E-AAD6712904DE">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>1923CC5D-44E1-B5E8-0D76-EA8DE737D084</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_mieszkania" id="D1FA9F84-3562-3A21-C8E0-17BE48E6203B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>2F2D4C5E-4EC5-00D9-2172-6CCB072283E4</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="21F20BF0-39A4-503D-6A51-3DB8779307AE">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>7CBC42CE-8D09-A83D-6A06-303007C7F100</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica_id" id="3EE192CA-B17C-3367-305F-22514ECBC32A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>8D4FECD6-C0B4-01BD-6A61-2452DD5ADE72</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CE3474E-F9EB-6047-098A-CE48326B9545" referredColumn="1599FA52-ECE1-2926-EDDF-2F4D9013BEDC"/>
+</associations>
+</Column>
+<Column name="specjalizacja_id" id="3F0E826C-DED9-6E3F-AAAC-833A9400221C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>1E529D2C-5C56-20ED-1201-F793D0066491</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2E51810-26EA-4AA7-E1C5-253DC6A77642" referredColumn="193EBEAD-66B3-810F-AB07-FA2ABECEBB78"/>
+</associations>
+</Column>
+<Column name="gabinet_lekarski_id" id="40541D45-987E-FBF9-A580-63E0BC0C78CF">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>A080B5D8-46E4-AD61-3A5D-53C685058EB0</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8D4B200-A320-D00C-0E94-BEE8369D008D" referredColumn="D0E35C02-7E6E-EEEB-79D8-9E7BD382BE49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8503D1C0-4EDD-6B54-2C6D-C1467781EAEB" name="Pracownik_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2C8207E9-EC70-6194-E217-06EB1BA04200"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D05302B0-2FBA-821C-2277-6CFD52FD5837" name="Pracownik_Ulica_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>2C0ED698-A9BD-D395-3C7E-B5A190E1F0E2</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EE192CA-B17C-3367-305F-22514ECBC32A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="469BA930-AD2C-254E-99D4-552F6DA7E74A" name="Pracownik_Specjalizacja_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>BFD2DA93-2322-9BD5-4AAF-1492C3FD9677</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F0E826C-DED9-6E3F-AAAC-833A9400221C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C73F25F4-2E5B-9887-0FE8-971C26F37BFF" name="Pracownik_Gabinet_lekarski_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>CD0E4CBA-F963-887B-F02C-0733974661B7</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40541D45-987E-FBF9-A580-63E0BC0C78CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

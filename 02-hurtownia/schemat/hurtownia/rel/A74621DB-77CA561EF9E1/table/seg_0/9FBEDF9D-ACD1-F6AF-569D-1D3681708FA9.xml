@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FBEDF9D-ACD1-F6AF-569D-1D3681708FA9" name="Rok_HURT">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:20:57 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rok_id" id="9B84DCC3-0EB8-4EF9-B67E-3DE1D513F9CE">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:21:13 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer" id="E0776503-382C-0A97-7C76-5F302DA45FDC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:21:35 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A67C7AC-89D0-80EC-5E8C-96F131C57922" name="Rok_HURT_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:21:13 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B84DCC3-0EB8-4EF9-B67E-3DE1D513F9CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

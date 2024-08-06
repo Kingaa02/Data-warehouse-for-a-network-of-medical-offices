@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wizyta Gabinet FK" directorySegmentName="seg_0" id="685C55AD-B706-D074-C4B6-541DB9E3E760">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:06:38 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<sourcePk>F5E1A629-9D45-7C69-CA43-91C327CC5D53</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>463EC815-D7D5-07E0-B405-F3D967A2C2C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>937EE5F2-2BD2-6B91-C0E8-1B422778788C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

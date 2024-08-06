@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A74621DB-472C-A4E7-06D7-77CA561EF9E1" mainViewID="F842F037-8C63-A29A-E8C7-2B3BE571D266">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-21 18:58:17 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

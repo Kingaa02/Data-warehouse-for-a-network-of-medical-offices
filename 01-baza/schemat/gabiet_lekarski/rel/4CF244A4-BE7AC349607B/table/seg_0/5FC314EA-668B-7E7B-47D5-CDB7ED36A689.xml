@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FC314EA-668B-7E7B-47D5-CDB7ED36A689" name="Wizyta">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>937EE5F2-2BD2-6B91-C0E8-1B422778788C</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="wizyta_id" id="135CEBAE-C407-DA7F-3552-E992226990CA">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>833C64B3-78AB-0DD8-2610-5DD91377EA82</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="22044DE1-20AC-0B03-D2E7-5888128A45B0">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>6B5FB3CA-FE6B-E5E8-9DE6-84D42CFDB9A7</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godzina" id="5FD1A132-CBA1-51E2-40B1-7D72523DC2A5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>4FA6DE90-5C63-D908-BADD-45008E4837D8</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pacjent_id" id="C127B6D2-38D3-645E-1C95-AB2DF6FB6AE3">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>5A221292-44BC-F671-63EF-A5FAD658DB35</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF30FB41-ACAF-30E1-51CD-C0A571C31F46" referredColumn="96105DE7-23CF-C799-2A9E-6E2308CA1182"/>
+</associations>
+</Column>
+<Column name="pracownik_id" id="92F255C1-6D11-8AAF-0A13-6D07689F193E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 18:37:25 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68EDDA42-6D51-E52E-BA0A-144DD272CC1C" referredColumn="2C8207E9-EC70-6194-E217-06EB1BA04200"/>
+</associations>
+</Column>
+<Column name="gabinet_id" id="FE2327F1-47A9-F258-4575-B58059B01572">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>97601CAB-B682-ACED-4ED6-44B5D19F8E08</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF83E1E0-82E6-A5F2-44C3-5BFBD095FF6B" referredColumn="5E172C24-C1FC-148D-561A-1B5815D20375"/>
+</associations>
+</Column>
+<Column name="typ_oplaty_id" id="D30BD795-0D33-C05E-1896-6E49DEE97D7C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:43:59 UTC</createdTime>
+<generatorID>9010CB76-F67E-03B5-A170-548F530012DC</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6731E629-0562-A9FF-0123-A8780A4EC975" referredColumn="58DBFA46-7F28-9D5D-008C-56C280E1BADB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71CADE2A-1EBB-05C3-6A0F-12B24530C35C" name="Wizyta_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>3D37D5D8-3AA2-424C-3967-86384F789AA9</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="135CEBAE-C407-DA7F-3552-E992226990CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6269D58A-B3BB-6AC7-2CA4-37016DED8578" name="Wizyta_Pracownik_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>0EED3939-37FA-81D5-FEAB-C1078DC3FA08</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92F255C1-6D11-8AAF-0A13-6D07689F193E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4E65647-1BA7-D4E7-8E77-1356FC9500AB" name="Wizyta_Pacjent_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>49A27A0B-708C-F2B9-BA37-3762B2353C03</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C127B6D2-38D3-645E-1C95-AB2DF6FB6AE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79B11CA5-162A-14DB-B117-13DD346BC987" name="Wizyta_Gabinet_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>685C55AD-B706-D074-C4B6-541DB9E3E760</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE2327F1-47A9-F258-4575-B58059B01572"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E663626A-AC4B-0B9B-564B-89771EB12B10" name="Wizyta_Typ_oplaty_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 17:43:59 UTC</createdTime>
+<generatorID>6FCF3101-9A56-4865-35DC-1DAE87D6F366</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D30BD795-0D33-C05E-1896-6E49DEE97D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

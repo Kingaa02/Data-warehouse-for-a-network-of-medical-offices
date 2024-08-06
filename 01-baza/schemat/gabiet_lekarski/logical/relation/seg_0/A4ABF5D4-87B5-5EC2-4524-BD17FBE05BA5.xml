@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ulica Miasto FK" directorySegmentName="seg_0" id="A4ABF5D4-87B5-5EC2-4524-BD17FBE05BA5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:11:48 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<sourcePk>23ADD69D-862D-435F-0BF2-7DCB5B9D2C8C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFCF720F-821B-1F5B-5F5F-A616C399FF00</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0736EF78-885E-9511-4CCC-E27396B38261</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

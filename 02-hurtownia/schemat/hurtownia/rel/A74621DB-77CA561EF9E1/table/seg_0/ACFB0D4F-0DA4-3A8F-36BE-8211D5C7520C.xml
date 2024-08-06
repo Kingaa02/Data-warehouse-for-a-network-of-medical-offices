@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACFB0D4F-0DA4-3A8F-36BE-8211D5C7520C" name="Panstwo_HURT">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:55:53 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="panstwo_id" id="80E7CD91-0BB4-DBD3-20CA-81ED49544E83">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:56:18 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="2566C40D-0C53-6BB1-673D-1A218D6CE0A3">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:56:28 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75EF25D8-66DA-3A58-2C36-26D8EA129EC1" name="Panstwo_HURT_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:56:19 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80E7CD91-0BB4-DBD3-20CA-81ED49544E83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

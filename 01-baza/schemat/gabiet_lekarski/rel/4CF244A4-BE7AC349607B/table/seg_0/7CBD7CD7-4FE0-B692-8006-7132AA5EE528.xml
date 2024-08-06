@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CBD7CD7-4FE0-B692-8006-7132AA5EE528" name="Miasto">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>FFCF720F-821B-1F5B-5F5F-A616C399FF00</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<ordsAlias>miastov1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="miasto_id" id="61E6B2CE-3E92-DC8F-5995-1C7783D5E8FB">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>B40D3669-5AE8-A534-7346-4CA9AF795009</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="CA41271E-627F-BBF4-6141-595D5B906413">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>16A663A1-B0C7-38B0-FDEE-B7545D1DBA9F</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wojewodztwo_id" id="811FD6F6-4CE7-2A6F-00E7-C76B30460A59">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>731FCC7D-2491-060D-F59F-B19C6D694E0C</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCDC459A-CE21-E06F-724D-09EB515F4BFC" referredColumn="E6F39599-D878-F29B-FA8D-0558CCDAE7EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14DE2CC6-AE20-74F1-1076-2082F0A04E3B" name="Miasto_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>23ADD69D-862D-435F-0BF2-7DCB5B9D2C8C</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61E6B2CE-3E92-DC8F-5995-1C7783D5E8FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCE5BB03-5A91-DFFB-256D-BD59AFC3D77D" name="Miasto_Wojewodztwo_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:12:40 UTC</createdTime>
+<generatorID>DF5A8F75-B952-0813-6A30-00720C89AF56</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="811FD6F6-4CE7-2A6F-00E7-C76B30460A59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,386 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DBF4B03-3ECB-2669-5B5A-973D9FB82593" name="Wizyta_HURT">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:55:11 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="wizyta_id" id="675981D5-0635-D0FC-7B43-52C60B3FA247">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:55:33 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pacjent_id" id="1D997C2A-C096-438C-8658-583C378E8158">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:55:51 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAFFAFC4-B98A-AE9F-B65A-1E1F16BC15BA" referredColumn="D0CB66F5-35AB-893E-09F7-ACD849DE0710"/>
+</associations>
+</Column>
+<Column name="gabinet_lekarski_id" id="ADD406D5-FB3B-9F7D-C247-17BA81A2CF7C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:55:55 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56D83ADF-0DD5-CA21-3106-D14F52652758" referredColumn="D03748C4-3033-0CE3-23C3-704C108D3C14"/>
+</associations>
+</Column>
+<Column name="miesiac_id" id="C395AB39-686B-F37D-8883-7BC42D193A4D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:00 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A34394E1-1311-76F8-5587-17E04AA193DE" referredColumn="8FB00F91-ADE0-892E-B428-6273AC9764C2"/>
+</associations>
+</Column>
+<Column name="rok_id" id="3256DCE6-9B4E-D1CD-218D-4BBD5D14C1E3">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:03 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A44DCF9-F777-F762-7354-B42A2069A02C" referredColumn="9B84DCC3-0EB8-4EF9-B67E-3DE1D513F9CE"/>
+</associations>
+</Column>
+<Column name="typ_oplaty_id" id="8F1F6A07-529D-A1EC-8ECE-1A3D095E30B7">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:06 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="158A85FB-B3DB-A3D6-4512-1190B8B99AE4" referredColumn="E5194CFC-CC5E-8CA0-B530-0F1E552DBD09"/>
+</associations>
+</Column>
+<Column name="gabinet_id" id="8D7A7A23-9D49-B332-5D23-971BEB51666C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:10 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="476FEE4E-12E2-C0A4-91F6-8BF0973FA0EA" referredColumn="50C33C3F-8804-6962-03E7-DC8613DEAF99"/>
+</associations>
+</Column>
+<Column name="pracownik_id" id="813D5CB3-10B5-BF2F-30B9-F4CCD1712C0A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:14 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C44395C-F19E-0EEC-0896-65F9D85B67DF" referredColumn="3CF67D64-2E49-9644-BF34-FD2C68480B80"/>
+</associations>
+</Column>
+<Column name="specjalizacja_id" id="DEEF647C-4458-086B-0B4E-47B3FD7E1DAF">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:45:54 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFB3C061-ABF2-8C5F-2078-D4816F2DA729" referredColumn="55A806DE-E22D-4374-F4B0-E757C49D0664"/>
+</associations>
+</Column>
+<Column name="wysokosc_zarobkow_id" id="FC6A0881-B3E4-A82F-DD77-766EBB4AC32B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:49:15 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B93C98C4-D43B-3389-1F06-B03AC2D1AB0E" referredColumn="5BD87CDB-D039-4DA8-6763-8918E0827CD3"/>
+</associations>
+</Column>
+<Column name="typ_gabinetu_id" id="522B8D5B-BB73-F24D-9933-8F4420E359E5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:52:18 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B0E8C11-A297-14D1-29F2-A18D7D9B871F" referredColumn="F98B6DFB-A8E3-1C8F-A2E5-13AFE9D698EB"/>
+</associations>
+</Column>
+<Column name="ulica_id" id="929944C9-8840-24FB-5A57-D0618A765532">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:54:04 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E2D64E0-26AA-3AEF-DABB-D5DB2BF1A954" referredColumn="ABA4818A-0641-2BAE-92C6-AE13EEB735E2"/>
+</associations>
+</Column>
+<Column name="miasto_id" id="474D63D2-6373-EE12-FC22-8D3182B28373">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:54:51 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7990DAB-6890-67C2-00EC-64B3D02D0DDE" referredColumn="0278EDA9-4F6E-4A5B-C277-026ADCD84619"/>
+</associations>
+</Column>
+<Column name="wojewodztwo_id" id="F66EA61C-FDCC-BA4B-1661-6F0B208D04BC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:55:41 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E1DD02E-3C44-3F8C-2865-62DE8C4F38D7" referredColumn="92637B5F-CE3C-7B3B-CD29-6B21A9F10D04"/>
+</associations>
+</Column>
+<Column name="panstwo_id" id="166DC6D2-7A83-7A5A-DBB7-BDA8900FD924">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 08:09:11 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B7E069B-400B-CAFC-78CF-CA8A1360B0D0" referredColumn="80E7CD91-0BB4-DBD3-20CA-81ED49544E83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="537B4880-9469-2BEA-31FB-045F8A525C16" name="Wizyta_HURT_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 20:06:23 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="675981D5-0635-D0FC-7B43-52C60B3FA247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C70E6502-81F4-DD69-CFF3-2F4174321662" name="Wizyta_HURT_Pacjent_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:55:51 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D997C2A-C096-438C-8658-583C378E8158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9407BC50-2F0E-0B8E-F3C8-7910F5DD6BE3" name="Wizyta_HURT_Gabinet_le_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:55:55 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADD406D5-FB3B-9F7D-C247-17BA81A2CF7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77D56EDA-5900-6B1A-345D-182F9868B037" name="Wizyta_HURT_Miesiac_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:00 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C395AB39-686B-F37D-8883-7BC42D193A4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47B43FB2-09C5-1167-5331-7EAED82D059F" name="Wizyta_HURT_Rok_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:03 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3256DCE6-9B4E-D1CD-218D-4BBD5D14C1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E343019-A81A-4A0F-85A9-2C41646641A7" name="Wizyta_HURT_Typ_oplaty_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:06 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F1F6A07-529D-A1EC-8ECE-1A3D095E30B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DE3DF45-DE83-1B2B-032C-410CF9C9101F" name="Wizyta_HURT_Gabinet_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:10 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D7A7A23-9D49-B332-5D23-971BEB51666C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFEAE504-CDB9-2538-A0B6-136C1B077E21" name="Wizyta_HURT_Pracownik_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-09 19:56:14 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="813D5CB3-10B5-BF2F-30B9-F4CCD1712C0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF0492C1-B223-2F05-C480-B1E89F2532D7" name="Wizyta_HURT_Spec_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:45:54 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEEF647C-4458-086B-0B4E-47B3FD7E1DAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7BF2E1C-9879-6B28-BE21-4E41467A58AF" name="Wizyta_HURT_Wysokosc_z_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:49:15 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC6A0881-B3E4-A82F-DD77-766EBB4AC32B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9444308-A35E-E0B1-362A-B5C2AC4137E1" name="Wizyta_HURT_Typ_gab_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:52:18 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="522B8D5B-BB73-F24D-9933-8F4420E359E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFED42DA-AEF2-9FB5-2ED4-B1FCFE53B999" name="Wizyta_HURT_Ulica_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:54:04 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="929944C9-8840-24FB-5A57-D0618A765532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39331364-A63A-F67B-5867-E2D88E2EFF97" name="Wizyta_HURT_Miasto_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:54:51 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="474D63D2-6373-EE12-FC22-8D3182B28373"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B62B7E1B-FD05-6E4D-797D-98B4567D06E1" name="Wizyta_HURT_Woje_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:55:41 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F66EA61C-FDCC-BA4B-1661-6F0B208D04BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6C99EB8-9FB6-99CF-E736-19456B44A5D2" name="Wizyta_HURT_Panstwo_HURT_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 08:09:11 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="166DC6D2-7A83-7A5A-DBB7-BDA8900FD924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

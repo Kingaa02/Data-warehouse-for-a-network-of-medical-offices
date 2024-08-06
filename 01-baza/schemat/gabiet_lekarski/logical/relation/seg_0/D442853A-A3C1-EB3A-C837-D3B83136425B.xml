@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Specjalizacja Wysokosc zarobkow FK" directorySegmentName="seg_0" id="D442853A-A3C1-EB3A-C837-D3B83136425B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 18:03:07 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<sourcePk>B4A44B43-46AE-7E86-270A-FD64246E6072</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A70C7D71-0BEA-64E6-5A10-CDC3EDB478FA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C6A64516-9EE5-DF09-D005-C977367828C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

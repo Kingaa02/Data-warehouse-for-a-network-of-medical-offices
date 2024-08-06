@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pracownik Specjalizacja FK" directorySegmentName="seg_0" id="BFD2DA93-2322-9BD5-4AAF-1492C3FD9677">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 19:25:26 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<sourcePk>30FFD1B9-F4F2-7F5E-1052-8B2AB1E07173</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C6A64516-9EE5-DF09-D005-C977367828C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D730D2E2-298A-71C0-63B2-5D3584E1E522</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

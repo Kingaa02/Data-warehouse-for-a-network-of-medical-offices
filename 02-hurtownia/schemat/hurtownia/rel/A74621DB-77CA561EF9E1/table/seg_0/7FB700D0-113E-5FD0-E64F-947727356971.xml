@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FB700D0-113E-5FD0-E64F-947727356971" name="Pacjent_HURT">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-21 19:22:03 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pacjent_id" id="D0CB66F5-35AB-893E-09F7-ACD849DE0710">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-21 19:26:47 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="FC9EE5CC-57AA-10A6-B885-06B1946C6C38">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-21 19:28:02 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="2EDF7A06-E8E4-E505-6188-0EF1267E0894">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:22:52 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="512DB14F-F06A-CA08-D74D-72CA0ACAAC82" name="Pacjent_HURT_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-21 19:26:47 UTC</createdTime>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0CB66F5-35AB-893E-09F7-ACD849DE0710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55472583-7F3A-DEDC-0881-D6537C2DBE8C" containerWithKeyObject="DB693617-D567-3102-1FB8-56B7920ABCD6" localFKIndex="9019B45D-D675-97DF-DCD9-522FD75B642E" name="Specjalizacja_Wysokosc_zar_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-07 18:03:23 UTC</createdTime>
+<generatorID>D442853A-A3C1-EB3A-C837-D3B83136425B</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<referredTableLongName>Wysokosc_zarobkow</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>790C57DC-46B7-989B-5BF2-1DADCA220135</referredTableID>
+<keyObject>44E738A3-3F61-AAF2-1DD9-A6C0726733E9</keyObject>
+<referredKeyID>44E738A3-3F61-AAF2-1DD9-A6C0726733E9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>wysokosc_zarobkow_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

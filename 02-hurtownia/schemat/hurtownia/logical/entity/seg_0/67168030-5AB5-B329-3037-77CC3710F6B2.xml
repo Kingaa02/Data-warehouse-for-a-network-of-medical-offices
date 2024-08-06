@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67168030-5AB5-B329-3037-77CC3710F6B2" name="Pacjent">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>7FB700D0-113E-5FD0-E64F-947727356971</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pacjent id" id="695D5A74-CCD2-7567-E530-84487A5D1A30">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>D0CB66F5-35AB-893E-09F7-ACD849DE0710</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="062E4A68-BBCB-9806-C990-F8137002A648">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>FC9EE5CC-57AA-10A6-B885-06B1946C6C38</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="98052703-2BA0-D9C1-6B3F-58E777461D9B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>2EDF7A06-E8E4-E505-6188-0EF1267E0894</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C78C76F3-A0C9-CBA2-044E-DB5E6DF2E4B7" name="Pacjent PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>512DB14F-F06A-CA08-D74D-72CA0ACAAC82</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>695D5A74-CCD2-7567-E530-84487A5D1A30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

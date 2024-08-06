@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gabinet Typ gabinetu FK" directorySegmentName="seg_0" id="3BED2E82-A7C3-D8B2-7D49-337C4A953E4A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-20 19:07:51 UTC</createdTime>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<engineerTo>
+<item key="4CF244A4-9955-9850-A1E4-BE7AC349607B" value="true"/>
+</engineerTo>
+<sourcePk>C123878F-BBF8-7D55-D802-D0929402A8AB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19FE2E5A-82DC-0C72-823F-69367CE66D34</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>463EC815-D7D5-07E0-B405-F3D967A2C2C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

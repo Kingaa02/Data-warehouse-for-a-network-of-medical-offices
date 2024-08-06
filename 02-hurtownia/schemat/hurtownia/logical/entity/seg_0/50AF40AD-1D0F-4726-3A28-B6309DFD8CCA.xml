@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50AF40AD-1D0F-4726-3A28-B6309DFD8CCA" name="Gabinet">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>213FECC4-5C59-9479-E08D-3DA30B9724A2</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="gabinet id" id="238A6A2F-DD2C-E460-178E-3A4A97104B39">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>50C33C3F-8804-6962-03E7-DC8613DEAF99</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numer" id="FB267D1D-C38A-5369-65F4-B44AD97DD4E7">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>AF2E900C-1BD7-9A56-54D2-001C703AC809</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DA7211F-A1A0-5E71-97E0-C871A6E22A05" name="Gabinet PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-05 07:27:55 UTC</createdTime>
+<generatorID>73956246-62D0-2226-69AA-2E880873F06E</generatorID>
+<ownerDesignName>hurtownia_nowa</ownerDesignName>
+<engineerTo>
+<item key="A74621DB-472C-A4E7-06D7-77CA561EF9E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>238A6A2F-DD2C-E460-178E-3A4A97104B39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

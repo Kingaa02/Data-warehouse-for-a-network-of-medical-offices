@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF30FB41-ACAF-30E1-51CD-C0A571C31F46" containerWithKeyObject="5FC314EA-668B-7E7B-47D5-CDB7ED36A689" localFKIndex="B4E65647-1BA7-D4E7-8E77-1356FC9500AB" name="Wizyta_Pacjent_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-05-07 20:04:52 UTC</createdTime>
+<generatorID>49A27A0B-708C-F2B9-BA37-3762B2353C03</generatorID>
+<ownerDesignName>gabiet_lekarski</ownerDesignName>
+<referredTableLongName>Pacjent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2430AD5-3143-F49E-0501-592879BD30D8</referredTableID>
+<keyObject>2061984D-4ED7-3C9E-BDBA-31408020B139</keyObject>
+<referredKeyID>2061984D-4ED7-3C9E-BDBA-31408020B139</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pacjent_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

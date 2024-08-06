@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E39F79D-9CBB-FDC1-7DAB-F860C0B802EE" name="Specjalizacja_HURT">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:44:47 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="specjalizacja_id" id="55A806DE-E22D-4374-F4B0-E757C49D0664">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:45:10 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F3F499C-B476-944B-AD31-A86AF49F5591" name="Specjalizacja_HURT_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:45:10 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55A806DE-E22D-4374-F4B0-E757C49D0664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

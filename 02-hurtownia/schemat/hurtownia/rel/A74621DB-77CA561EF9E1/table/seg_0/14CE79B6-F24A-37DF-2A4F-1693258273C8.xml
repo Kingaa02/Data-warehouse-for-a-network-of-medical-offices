@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14CE79B6-F24A-37DF-2A4F-1693258273C8" name="Wysokosc_zarobkow_HURT">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:46:05 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="wysokosc_zarobkow_id" id="5BD87CDB-D039-4DA8-6763-8918E0827CD3">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:48:28 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kwota" id="5EA70CF3-F878-4A16-E822-3B3A09420C11">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:48:55 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="281D9FFD-EBB7-53E4-8E29-81C8753A8ABE" name="Wysokosc_zarobkow_HURT_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-06-12 07:49:03 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BD87CDB-D039-4DA8-6763-8918E0827CD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
